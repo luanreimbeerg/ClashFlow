@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CashFlow.Api/CashFlow.Api.csproj" />
+    <Project Path="src/ClashFlow.Application/ClashFlow.Application.csproj" />
+    <Project Path="src/ClashFlow.Communication/ClashFlow.Communication.csproj" />
+    <Project Path="src/ClashFlow.Domain/ClashFlow.Domain.csproj" />
+    <Project Path="src/ClashFlow.Exception/ClashFlow.Exception.csproj" />
+    <Project Path="src/ClashFlow.Infrastructure/ClashFlow.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
