@@ -45,7 +45,7 @@ namespace CashFlow.Api.Filters
 
         private void ThrowUnkowError(ExceptionContext context)
         {
-            var errorResponse = new ResponseError(Resource.UNLNOWN_ERROR);
+            var errorResponse = new ResponseError(ResourceErrorMessages.UNLNOWN_ERROR);
 
             context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
             context.Result = new ObjectResult(errorResponse);
